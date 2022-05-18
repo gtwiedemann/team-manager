@@ -90,6 +90,7 @@ export function Timesheet() {
                 <table className='timesheet-activitiesTable'>
                     <thead>
                         <tr>
+                            <th></th>
                             <th>Un</th>
                             <th>Phase</th>
                             <th>Asset</th>
@@ -99,7 +100,6 @@ export function Timesheet() {
                             <th>Finish</th>
                             <th>Hours</th>
                             <th>Comments</th>
-                            <th></th>
                         </tr>
                     </thead>
 

@@ -6,6 +6,9 @@ export function TimesheetTableRow(props) {
     return (
         <>
             <tr className='tableRow'>
+                <td>
+                    <DeleteButton></DeleteButton>
+                </td>
                 <td>{props.dayData.un}</td>
                 <td>{props.dayData.phase}</td>
                 <td>{props.dayData.asset}</td>
@@ -18,9 +21,6 @@ export function TimesheetTableRow(props) {
                         Date.parse(props.dayData.start)}
                 </td>
                 <td>{props.dayData.comment}</td>
-                <td>
-                    <DeleteButton></DeleteButton>
-                </td>
             </tr>
         </>
     );
