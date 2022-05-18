@@ -1,0 +1,15 @@
+.icon_cancel {
+    background-image: url('../../assets/icons/cancel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    transition: 0.8s;
+    border-radius: 50%;
+}
+
+.icon_cancel:hover {
+    background-color: black;
+    box-shadow: 0px 0px 2px 4px rgb(156, 156, 255);
+}
